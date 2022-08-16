@@ -1,0 +1,21 @@
+{
+    "name": "bvanlew/apache_thrift",
+    "description": "Thrift tutorial",
+    "type": "project",
+    "require": {
+        "composer/composer": "2.4.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thrift\\": "thrift_0_16/lib/php/lib"
+        }
+    },
+    "authors": [
+        {
+            "name": "Baldur van Lew",
+            "email": "b.van_lew@lumc.nl"
+        }
+    ],
+    "minimum-stability": "dev"
+}
